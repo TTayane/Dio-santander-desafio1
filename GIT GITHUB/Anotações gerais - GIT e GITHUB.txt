@@ -1,0 +1,88 @@
+#### Anotações gerais da aula de GIT/GITHUB do bootcamp Dio-Santander
+
+
+
+* #### GIT e GitHub
+
+​    O Git e GITHUB foram criados para ser uma plataforma de gerenciamento de código fonte de maneira simples otimizando o tempo e trabalho no dia a dia, podendo ser utilizada de uma forma individual ou em grupo, permitindo que varias pessoas trabalhem em um mesmo arquivo no exato momento. 
+
+​    O Git é  sistema de controle de versão distribuído utilizado no repositório local (máquina). Ele registra essas mudanças do projeto, permitindo que os arquivos sejam alterados de forma simultânea por várias pessoas. Também pode-se restaurar a versão anterior de forma fácil caso haja algum problemas nos arquivos modificados. Por isso, é tão importante em trabalhos que são realizados em equipe.
+
+​    O GitHub é uma plataforma para gerenciar códigos, utilizando o Git como sistema de controle, o GitHub é um repositório remoto (servidor), facilitando o trabalho independente de onde você acessa-lo, mantendo o código principal no repositório local. No GitHub pode-se clonar o código fonte desejado e fazer modificações necessárias (uma ramificação). Esses projetos podem ser adicionados na plataforma de maneira pública ou privada, este ultimo limitando o acesso.
+
+​    O Git e GitHub utilizam um algoritmo de encriptação o SHA1 gerando segurança para os arquivos lançados.
+
+
+
+* #### Comandos utilizados no Git 
+
+  
+
+**cd**--> navegar entre as pastas
+
+**dir** --> lista de diretórios na pasta
+
+**mkdir** -->
+
+**del/rmdir** -->
+
+**Ctrl + l** --> limpar terminal
+
+**ls** --> listar
+
+**la -a** --> mostrar pastas ocultas
+
+ **Git init** --> inicializar um repositório local no GIT
+
+**Git status** --> verificar o estado dos seus documentos
+
+**Git add *** --> enviar o arquivo para Stage
+
+**Git add --all** --> enviar todos os arquivos para Stage
+
+**Git commit -m "título do commit"** --> enviar o que está no Stege para o HEAD
+
+**Git remote add origin +** ***URL do repositório***--> adicionar e indicar a URL do repositório remoto em que os arquivos serão mantidos
+
+**Git push origin master** -->envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho
+
+**Git checkout -b** --> 
+
+**Git checkout** --> usado para criar ramos ou alternar entre eles.
+
+**Git clone + URL** --> baixar um repositório do GitHub
+
+**Git pull** --> Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local
+
+**Git config --list**--> verificar o nome de usuário, email, editor e merge tool
+
+**Git diff**--> identificarmos as alterações realizadas no arquivo
+
+
+
+* #### Arquivos no GIT
+
+  **Untracked**: Arquivos em que o Git não tem conhecimento
+
+  **Tracked**: Arquivos que o Git tem conhecimento, divididos em 3 subunidade:
+
+  - *<u>Unmodified</u>*: Arquivo que não sofreu modificação
+
+  - *<u>Modified</u>:* Arquivo que sofreu modificação
+
+  - *<u>Straged</u>*: Local onde fica os arquivos que estão se preparando para o commit
+
+    
+
+**WORKING DIRETORY** -----  *git add*  -----> **STAGING AREA**  -----  *commit -m ""*  ------> **LOCAL REPOSITORY**
+
+
+
+#### Referências 
+
+[1]: https://www.alura.com.br/artigos/o-que-e-git-github?gclid=EAIaIQobChMIktK1t4ay-AIVAsORCh3cYAJvEAAYASAAEgJ4OvD_BwE
+
+
+
+[2]: https://www.hostgator.com.br/blog/git-o-sistema-de-controle/?gclid=EAIaIQobChMIybm23Iuy-AIV30FIAB1JNgQfEAAYASAAEgKPZvD_BwE
+
